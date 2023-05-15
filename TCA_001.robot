@@ -2,7 +2,7 @@
 Library     SeleniumLibrary
 
 *** Variables ***
-${url}=     https://macpaw.com/how-to/remove-bootcamp-mac     
+${url1}=     https://macpaw.com/how-to/remove-bootcamp-mac     
 
 *** Test Cases ***
 Validate
@@ -12,7 +12,7 @@ Validate
 
 *** Keywords ***
 Validate Open browser
-    open browser    ${url}  Chrome
+    open browser    ${url1}  Chrome
 
 Validate Close browser
     close browser
