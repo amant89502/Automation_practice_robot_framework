@@ -1,4 +1,5 @@
 # this is modern for loop syntaxes and it works
+# this is comment
 *** Settings ***
 Documentation       A simple for loop example.
 Library  SeleniumLibrary
